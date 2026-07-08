@@ -1,0 +1,12 @@
+# Ignore python cache
+__pycache__/
+*.pyc
+
+# Ignore simulation data outputs (crucial for speed and storage limits)
+*.csv
+*.txt
+output/
+
+# Ignore local IDE configurations
+.vscode/
+.DS_Store
